@@ -1,3 +1,5 @@
+edit.ejs
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Inmate Information System</title>
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
-    <link href="stylesheets/styleindex.css" rel="stylesheet" />
+    <link href="/styleindex.css" rel="stylesheet" />
 
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 </head>
@@ -311,7 +313,7 @@
                                         <div class="form-outline">
                                             <label class="form-label" for="contact">Contact</label>
                                             <input type="text" id="contact" name="contact"
-                                                class="form-control form-control-sm" value="<%= inmate.contact%" required />
+                                                class="form-control form-control-sm" value="<%= inmate.contact%>" required />
                                         </div>
                                     </div>
                                 </div>
